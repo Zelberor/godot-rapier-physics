@@ -96,4 +96,4 @@ jobs:
       contents: write
     needs: [merge]
     uses: ./.github/workflows/release.yml
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main-threads'
